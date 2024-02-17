@@ -1,0 +1,54 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.card-container {
+  height: 50%;
+  width: 75%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 15px;
+}
+.thank-you-container {
+  text-align: center;
+}
+.thankYou-image {
+  height: 75px;
+}
+.thankYouHeading {
+  color: #1e293b;
+  font-family: roboto;
+}
+.top-heading {
+  text-align: center;
+  font-size: 25px;
+  flex-wrap: wrap;
+  overflow: auto;
+  font-family: roboto;
+  color: #1e293b;
+}
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: roboto;
+}
+
+.thank-you-text {
+  color: #0f172a;
+  font-family: roboto;
+}
